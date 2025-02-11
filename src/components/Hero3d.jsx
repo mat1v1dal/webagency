@@ -6,7 +6,7 @@ export default function App() {
 
   useEffect(() => {
     const handleScroll = () => {
-      setOffset(window.scrollY * 0.5); // Ajusta la velocidad del efecto
+      setOffset(window.scrollY * 0.3); // Ajusta la velocidad del efecto
     };
 
     window.addEventListener("scroll", handleScroll);

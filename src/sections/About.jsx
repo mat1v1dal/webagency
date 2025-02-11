@@ -7,7 +7,7 @@ const About = () => {
   const [hasCopied, setHasCopied] = useState(false);
 
   const handleCopy = () => {
-    navigator.clipboard.writeText(' 2302403@ucc.edu.ar');
+    navigator.clipboard.writeText('contacto@noacode.com');
     setHasCopied(true);
 
     setTimeout(() => {
@@ -25,7 +25,7 @@ const About = () => {
             <div>
               <p className="grid-headtext">Hola, somos <span className='text-purple-400'>NoaCode</span>!</p>
               <p className="grid-subtext">
-                Una agencia de desarrollo de software con sede en Argentina. Nos especializamos en la creación de sistemas basados en la web y aplicaciones móviles.
+                Somos una empresa de desarrollo de software con sede en Argentina. Nos especializamos en la creación de sistemas basados en la web y aplicaciones móviles.
               </p>
             </div>
           </div>
@@ -38,7 +38,7 @@ const About = () => {
             <div>
               <p className="grid-headtext">¿Cómo trabajamos?</p>
               <p className="grid-subtext">
-                Utilizamos tecnologías modernas y metodologías ágiles para ofrecer soluciones de software de alta calidad. Nuestro objetivo es ayudar a las empresas a alcanzar sus objetivos de negocio.
+                Usamos tecnologías modernas y metodologías ágiles para ofrecer soluciones de software de alta calidad. Nuestro objetivo es ayudar a las empresas a alcanzar sus objetivos de negocio.
               </p>
             </div>
           </div>
@@ -60,9 +60,9 @@ const About = () => {
               />
             </div>
             <div>
-              <p className="grid-headtext">I’m very flexible with time zone communications & locations</p>
-              <p className="grid-subtext">I&apos;m based in Rjieka, Croatia and open to remote work worldwide.</p>
-              <Button name="Contact Me" isBeam containerClass="w-full mt-10" />
+              <p className="grid-headtext">Estamos abiertos a trabajar con cualquier zona horaria y ubicación</p>
+              <p className="grid-subtext">Nos encontramos en Córdoba, Argentina, pero estamos disponibles para trabajo remoto a nivel mundial.</p>
+              <Button name="Contáctanos" isBeam containerClass="w-full mt-10" />
             </div>
           </div>
         </div>
@@ -72,10 +72,9 @@ const About = () => {
             <img src="assets/grid3.png" alt="grid-3" className="w-full sm:h-[266px] h-fit object-contain" />
 
             <div>
-              <p className="grid-headtext">My Passion for Coding</p>
+              <p className="grid-headtext">Nuestra pasión por la tecnología</p>
               <p className="grid-subtext">
-                I love solving problems and building things through code. Programming isn&apos;t just my
-                profession—it&apos;s my passion. I enjoy exploring new technologies, and enhancing my skills.
+                Nos apasiona resolver problemas y construir soluciones mediante tecnología. La programación no es solo nuestra profesión, es nuestra pasión. Nos encanta explorar nuevas tecnologías y mejorar nuestras habilidades constantemente.
               </p>
             </div>
           </div>
@@ -90,10 +89,10 @@ const About = () => {
             />
 
             <div className="space-y-2">
-              <p className="grid-subtext text-center">Contact me</p>
+              <p className="grid-subtext text-center">Contáctanos</p>
               <div className="copy-container" onClick={handleCopy}>
                 <img src={hasCopied ? 'assets/tick.svg' : 'assets/copy.svg'} alt="copy" />
-                <p className="lg:text-2xl md:text-xl font-medium text-gray_gradient text-white">adrian@jsmastery.pro</p>
+                <p className="lg:text-2xl md:text-xl font-medium text-gray_gradient text-white">contacto@noacode.com</p>
               </div>
             </div>
           </div>
