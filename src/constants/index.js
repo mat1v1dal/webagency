@@ -128,7 +128,7 @@ export const myProjects = [
     desc: 'Se realizó un sistema de turnos online para el consultorio odontologico Vidal, con el objetivo de facilitar la reserva de turnos para los pacientes. Se implementó un sistema de autenticación seguro y se trabajó en un diseño intuitivo y fácil de usar. Además, se integró un sistema de notificaciones por correo electrónico para recordar a los pacientes sobre sus citas.',
     subdesc:
       'Nos enfocamos en crear una interfaz de usuario atractiva y funcional, que permita a los pacientes reservar turnos de manera rápida y sencilla. El sistema de turnos online ha mejorado la eficiencia de la clínica y ha brindado una mejor experiencia al paciente.',
-    href: 'https://www.youtube.com/watch?v=lEflo_sc82g',
+    href: '',
     texture: '/textures/project/project3.mp4',
     logo: '/assets/project-logo3.png',
     logoStyle: {
