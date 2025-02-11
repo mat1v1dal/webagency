@@ -1,22 +1,35 @@
-import { useEffect, useState } from "react";
+import { useEffect, useRef } from "react";
 import Spline from "@splinetool/react-spline";
 
 export default function App() {
-  const [offset, setOffset] = useState(0);
+  const parallaxRef = useRef(null);
 
   useEffect(() => {
+    let lastScrollY = 0;
+    let ticking = false;
+
     const handleScroll = () => {
-      setOffset(window.scrollY * 0.3); // Ajusta la velocidad del efecto
+      lastScrollY = window.scrollY;
+
+      if (!ticking) {
+        requestAnimationFrame(() => {
+          if (parallaxRef.current) {
+            parallaxRef.current.style.transform = `translateY(${lastScrollY * 0.3}px)`;
+          }
+          ticking = false;
+        });
+        ticking = true;
+      }
     };
 
-    window.addEventListener("scroll", handleScroll);
+    window.addEventListener("scroll", handleScroll, { passive: true });
     return () => window.removeEventListener("scroll", handleScroll);
   }, []);
 
   return (
     <div
-      className="w-full h-screen flex items-center justify-center"
-      style={{ transform: `translateY(${offset}px)` }}
+      ref={parallaxRef}
+      className="w-full h-screen flex items-center justify-center will-change-transform"
     >
       <Spline scene="https://prod.spline.design/YuHkT-kqL1047iun/scene.splinecode" />
     </div>

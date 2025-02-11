@@ -24,35 +24,27 @@ export const navLinks = [
 export const clientReviews = [
   {
     id: 1,
-    name: 'Emily Johnson',
-    position: 'Marketing Director at GreenLeaf',
-    img: 'assets/review1.png',
+    name: 'Marcelo G. Valdez',
+    position: 'Gerente General en Grava SRL',
+    img: 'assets/review2.png',
     review:
-      'Working with Adrian was a fantastic experience. He transformed our outdated website into a modern, user-friendly platform. His attention to detail and commitment to quality are unmatched. Highly recommend him for any web dev projects.',
+      'El equipo de NoaCode superó nuestras expectativas con el desarrollo de nuestra landing page. Logramos una presencia online profesional y optimizada, lo que ha fortalecido nuestra imagen y captado nuevos clientes.',
   },
   {
     id: 2,
-    name: 'Mark Rogers',
-    position: 'Founder of TechGear Shop',
-    img: 'assets/review2.png',
+    name: 'Mario A. Vidal',
+    position: 'Odontologo en Odontología Vidal',
+    img: 'assets/marito.jpeg',
     review:
-      'Adrian’s expertise in web development is truly impressive. He delivered a robust and scalable solution for our e-commerce site, and our online sales have significantly increased since the launch. He’s a true professional! Fantastic work.',
+      'Gracias a NoaCode, nuestra clínica cuenta con un sitio moderno y eficiente. La implementación del sistema de turnos online ha mejorado la experiencia de nuestros pacientes y optimizado nuestra gestión.',
   },
   {
     id: 3,
-    name: 'John Dohsas',
-    position: 'Project Manager at UrbanTech ',
+    name: 'Martín Ríos',
+    position: 'Coordinador de Tecnología en Odontología Vidal',
     img: 'assets/review3.png',
     review:
-      'I can’t say enough good things about Adrian. He was able to take our complex project requirements and turn them into a seamless, functional website. His problem-solving abilities are outstanding.',
-  },
-  {
-    id: 4,
-    name: 'Ether Smith',
-    position: 'CEO of BrightStar Enterprises',
-    img: 'assets/review4.png',
-    review:
-      'Adrian was a pleasure to work with. He understood our requirements perfectly and delivered a website that exceeded our expectations. His skills in both frontend backend dev are top-notch.',
+      'La solución de turnos online desarrollada por NoaCode ha sido un cambio total para nuestra clínica. La interfaz intuitiva y las notificaciones automáticas han facilitado la reserva de citas, mejorando la organización.',
   },
 ];
 
