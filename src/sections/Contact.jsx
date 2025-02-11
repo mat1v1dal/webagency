@@ -38,7 +38,7 @@ const Contact = () => {
           setLoading(false);
           showAlert({
             show: true,
-            text: 'Thank you for your message 😃',
+            text: 'Gracias por su mensaje 😃',
             type: 'success',
           });
 
@@ -57,7 +57,7 @@ const Contact = () => {
 
           showAlert({
             show: true,
-            text: "I didn't receive your message 😢",
+            text: "No pudimos recibir su mensaje 😢",
             type: 'danger',
           });
         },
