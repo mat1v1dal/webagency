@@ -1,22 +1,22 @@
 export const navLinks = [
   {
     id: 1,
-    name: 'Home',
+    name: 'Inicio',
     href: '#home',
   },
   {
     id: 2,
-    name: 'About',
+    name: 'Sobre nosotros',
     href: '#about',
   },
   {
     id: 3,
-    name: 'Work',
+    name: 'Proyectos',
     href: '#work',
   },
   {
     id: 4,
-    name: 'Contact',
+    name: 'Contacto',
     href: '#contact',
   },
 ];
@@ -58,19 +58,19 @@ export const clientReviews = [
 
 export const myProjects = [
   {
-    title: 'Podcastr - AI Podcast Platform',
-    desc: 'Podcastr is a revolutionary Software-as-a-Service platform that transforms the way podcasts are created. With advanced AI-powered features like text-to-multiple-voices functionality, it allows creators to generate diverse voiceovers from a single text input.',
+    title: 'Grava-srl, landing page',
+    desc: 'Grava SRL, una empresa constructora con más de 20 años de trayectoria en La Rioja. El proyecto fue implementado con Next.js, optimizando la velocidad y el rendimiento del sitio. Se diseñó una interfaz intuitiva y profesional, resaltando los servicios y proyectos de la empresa. Además, se trabajó en estrategias de SEO para mejorar su posicionamiento en los motores de búsqueda.',
     subdesc:
       'Built as a unique Software-as-a-Service app with Next.js 14, Tailwind CSS, TypeScript, Framer Motion and Convex, Podcastr is designed for optimal performance and scalability.',
     href: 'https://www.youtube.com/watch?v=zfAb95tJvZQ',
-    texture: '/textures/project/project1.mp4',
-    logo: '/assets/project-logo1.png',
+    texture: '/assets/gravalanding.png',
+    logo: '/assets/grava.svg',
     logoStyle: {
-      backgroundColor: '#2A1816',
+      backgroundColor: 'white',
       border: '0.2px solid #36201D',
       boxShadow: '0px 0px 60px 0px #AA3C304D',
     },
-    spotlight: '/assets/spotlight1.png',
+    spotlight: '/assets/spotlight2.png',
     tags: [
       {
         id: 1,

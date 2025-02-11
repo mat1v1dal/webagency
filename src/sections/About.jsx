@@ -7,7 +7,7 @@ const About = () => {
   const [hasCopied, setHasCopied] = useState(false);
 
   const handleCopy = () => {
-    navigator.clipboard.writeText(' adrian@jsmastery.pro');
+    navigator.clipboard.writeText(' 2302403@ucc.edu.ar');
     setHasCopied(true);
 
     setTimeout(() => {
@@ -23,10 +23,9 @@ const About = () => {
             <img src="assets/grid1.png" alt="grid-1" className="w-full sm:h-[276px] h-fit object-contain" />
 
             <div>
-              <p className="grid-headtext">Hi, I’m Adrian Hajdin</p>
+              <p className="grid-headtext">Hola, somos <span className='text-purple-400'>NoaCode</span>!</p>
               <p className="grid-subtext">
-                With 12 years of experience, I have honed my skills in both frontend and backend dev, creating dynamic
-                and responsive websites.
+                Una agencia de desarrollo de software con sede en Argentina. Nos especializamos en la creación de sistemas basados en la web y aplicaciones móviles.
               </p>
             </div>
           </div>
@@ -37,10 +36,9 @@ const About = () => {
             <img src="assets/grid2.png" alt="grid-2" className="w-full sm:h-[276px] h-fit object-contain" />
 
             <div>
-              <p className="grid-headtext">Tech Stack</p>
+              <p className="grid-headtext">¿Cómo trabajamos?</p>
               <p className="grid-subtext">
-                I specialize in a variety of languages, frameworks, and tools that allow me to build robust and scalable
-                applications
+                Utilizamos tecnologías modernas y metodologías ágiles para ofrecer soluciones de software de alta calidad. Nuestro objetivo es ayudar a las empresas a alcanzar sus objetivos de negocio.
               </p>
             </div>
           </div>
